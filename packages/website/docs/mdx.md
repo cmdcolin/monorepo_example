@@ -6,7 +6,7 @@ title: Demo of component
 
 import Button from '@material-ui/core/Button'
 
-import MyButton from '@repo/mybutton'
+import MyButton from 'mybutton'
 
 
 export const Highlight = ({children, color}) => <h1>This is a component</h1>

@@ -1,5 +1,6 @@
 import React from 'react'
+import Magic from './test'
 
 export default function MyButton() {
-  return <button>Hello world</button>
+  return <button>Cross linkage {Magic()}</button>
 }
